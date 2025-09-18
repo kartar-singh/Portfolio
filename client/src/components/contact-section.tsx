@@ -22,6 +22,7 @@ type ContactFormData = z.infer<typeof contactFormSchema>;
 
 export default function ContactSection() {
   const { toast } = useToast();
+  const [showSuccess, setShowSuccess] = useState(false);
   
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
@@ -41,6 +42,9 @@ export default function ContactSection() {
         description: "Thank you for your message. I'll get back to you soon.",
       });
       form.reset();
+      setShowSuccess(true);
+      // Hide success message after 5 seconds
+      setTimeout(() => setShowSuccess(false), 5000);
     },
     onError: (error) => {
       toast({
@@ -48,6 +52,7 @@ export default function ContactSection() {
         description: error.message || "Something went wrong. Please try again.",
         variant: "destructive",
       });
+      setShowSuccess(false);
     },
   });
 
@@ -159,6 +164,15 @@ export default function ContactSection() {
               <h3 className="text-2xl font-bold mb-6" data-testid="contact-form-title">
                 Send me a message
               </h3>
+              
+              {/* Success Message */}
+              {showSuccess && (
+                <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg" data-testid="contact-success">
+                  <h4 className="font-semibold">Message sent successfully!</h4>
+                  <p className="text-sm">Thank you for your message. I'll get back to you soon.</p>
+                </div>
+              )}
+              
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                   <FormField
