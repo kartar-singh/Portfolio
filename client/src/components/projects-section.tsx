@@ -4,6 +4,14 @@ import { ExternalLink, Github } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "Donatuz - Blockchain Creator Monetization Platform",
+      description: "Blockchain-based platform that provides creators with innovative monetization tools to earn money from their content. Leveraging blockchain technology, Donatuz allows creators to directly connect with their audience and get paid for their work without relying on centralized middlemen.",
+      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
+      technologies: ["Blockchain", "Web3", "Smart Contracts", "React", "Ethereum"],
+      demoUrl: "https://donatuz.com",
+      githubUrl: "#",
+    },
+    {
       title: "Mercidieu Store - E-commerce Platform",
       description: "Full-stack e-commerce solution with modern design, secure payment processing, product management, and responsive user interface. Complete online shopping experience.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
@@ -17,46 +25,6 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
       technologies: ["React", "Next.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
       demoUrl: "https://flashgenai.com/",
-      githubUrl: "#",
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      technologies: ["Next.js", "Socket.io", "PostgreSQL", "Prisma"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Real Estate Platform",
-      description: "Modern real estate listing platform with advanced search filters, virtual tours, and agent management system.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      technologies: ["React", "Express.js", "AWS S3", "Maps API"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media management with real-time data visualization and automated reporting features.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      technologies: ["Vue.js", "Chart.js", "Node.js", "Redis"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Learning Management System",
-      description: "Comprehensive LMS with course creation, progress tracking, quizzes, and interactive learning modules.",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      technologies: ["Next.js", "MongoDB", "JWT", "AWS"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Fitness Tracking App",
-      description: "Mobile-first fitness application with workout tracking, nutrition logging, and progress visualization.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      technologies: ["React Native", "Firebase", "Redux", "Charts"],
-      demoUrl: "#",
       githubUrl: "#",
     },
   ];

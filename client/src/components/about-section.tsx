@@ -20,11 +20,6 @@ export default function AboutSection() {
       description: "Complete project lifecycle management",
     },
     {
-      icon: Search,
-      title: "SEO Optimization",
-      description: "Search engine optimization expertise",
-    },
-    {
       icon: Cloud,
       title: "Cloud Solutions",
       description: "AWS cloud services integration",
