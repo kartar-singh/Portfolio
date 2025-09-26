@@ -12,6 +12,14 @@ export default function ProjectsSection() {
       githubUrl: "https://github.com/kartar-singh/ecommerce-store",
     },
     {
+      title: "FlashGen AI - AI Content Generator",
+      description: "Advanced AI-powered content generation platform with intelligent text creation, customizable templates, and seamless user experience. Leveraging cutting-edge AI technology for content creation.",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
+      technologies: ["React", "Next.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
+      demoUrl: "https://flashgenai.com/",
+      githubUrl: "#",
+    },
+    {
       title: "Task Management App",
       description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
