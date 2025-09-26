@@ -4,12 +4,12 @@ import { ExternalLink, Github } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
+      title: "Mercidieu Store - E-commerce Platform",
+      description: "Full-stack e-commerce solution with modern design, secure payment processing, product management, and responsive user interface. Complete online shopping experience.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Express.js"],
+      demoUrl: "https://www.mercidieustore.com/",
+      githubUrl: "https://github.com/kartar-singh/ecommerce-store",
     },
     {
       title: "Task Management App",

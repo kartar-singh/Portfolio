@@ -32,7 +32,6 @@ export default function SkillsSection() {
         { name: "AWS", level: 75, color: "bg-orange-400" },
         { name: "Git", level: 90, color: "bg-red-400" },
         { name: "WordPress", level: 85, color: "bg-blue-600" },
-        { name: "SEO", level: 85, color: "bg-accent" },
         { name: "Docker", level: 75, color: "bg-blue-500" },
       ]
     }

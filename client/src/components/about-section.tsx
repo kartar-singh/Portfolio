@@ -105,7 +105,7 @@ export default function AboutSection() {
                   Who I Am
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-6" data-testid="about-bio">
-                  I'm a MERN Stack Developer with 3 years of experience, skilled in MongoDB, Express.js, React, Node.js, Next.js, WordPress, and SEO. I also have experience in full project management from start to finish.
+                  I'm a MERN Stack Developer with 3 years of experience, skilled in MongoDB, Express.js, React, Node.js, Next.js. I also have experience in full project management from start to finish.
                 </p>
               </div>
 
@@ -127,7 +127,7 @@ export default function AboutSection() {
                 ))}
               </div>
 
-              <div className="pt-4">
+              {/* <div className="pt-4">
                 <button
                   onClick={handleDownloadResume}
                   className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
@@ -136,7 +136,7 @@ export default function AboutSection() {
                   <Download className="w-4 h-4 mr-2 inline" />
                   Download Resume (PDF)
                 </button>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
