@@ -20,7 +20,7 @@ export default function HeroSection() {
           >
             <div className="animate-float">
               <img
-                src="/profile.jpg"
+                src="./profile.jpg"
                 alt="Kartar Singh - Professional headshot"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto object-cover ring-4 ring-accent/20 shadow-2xl"
                 data-testid="profile-image"
